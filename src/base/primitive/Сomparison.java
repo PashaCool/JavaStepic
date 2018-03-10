@@ -1,11 +1,11 @@
 /*
- * Реализуйте метод, возвращающий ответ на вопрос: правда ли, что a + b = c?
- * Допустимая погрешность – 0.0001 (1E-4)
+ * Р РµР°Р»РёР·СѓР№С‚Рµ РјРµС‚РѕРґ, РІРѕР·РІСЂР°С‰Р°СЋС‰РёР№ РѕС‚РІРµС‚ РЅР° РІРѕРїСЂРѕСЃ: РїСЂР°РІРґР° Р»Рё, С‡С‚Рѕ a + b = c?
+ * Р”РѕРїСѓСЃС‚РёРјР°СЏ РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ вЂ“ 0.0001 (1E-4)
  */
 
 package base.primitive;
 
-public class Сomparison {
+public class Г‘omparison {
 	public static boolean doubleExpression(double a, double b, double c) {
 		return Math.abs(a + b - c) < 1E-4;
 	}
